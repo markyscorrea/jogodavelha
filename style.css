@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+#title {
+    height: 30vh;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#subtitle {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#field {
+    height: 50vh;
+    width: 30vw;
+    margin: 0 auto;
+    
+}
+
+#limits,
+#field-size {
+    height: 100%;
+}
+
+.lines {
+    height: 33.35%;
+}
+
+#rodape {
+    height: 20vh;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.squares {
+    border: 4px solid rgba(0, 0, 0, 0.3);
+    border-bottom: none;
+    border-right: none;
+}
+
+#square-1,
+#square-4,
+#square-7 {
+    border-left: none;
+}
+
+#square-1,
+#square-2,
+#square-3 {
+    border-top: none;
+}
+
+.colorX {
+    color: rgba(0, 0, 0, 0.6)
+}
+.colorO {
+    color: rgba(58, 75, 83, 0.7)
+}
+.colorV {
+    color: rgba(244, 67, 54, 0.7);
+}
+.colorWin{
+    color: rgba(255, 255, 255, 1);
+    transition: 0.5s;
+}
+i {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+/* Media Queries */
+@media (max-width: 575.98px) {
+    #field {
+        height: 35vh;
+        width: 70vw;
+    }
+    #rodape {
+        height: 35vh;
+    }
+}
