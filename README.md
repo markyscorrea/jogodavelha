@@ -2,7 +2,9 @@
 
 ---
 Visual Web
-![alt text](./img/front-web.png)
+
+<img src='./img/front-web.png' width="70%">
+
 ---
 
 Visual Mobile
