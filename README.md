@@ -1,6 +1,13 @@
 # [#jogodavéia](https://markyscorrea.github.io/jogodavelha/) ⬅️
 
 ---
+Visual Web
+![alt text](./img/front-web.png)
+---
+
+Visual Mobile
+
+<img src='./img/front-mobile.png' width="200">
 
 ## 🔖Sobre
 
