@@ -151,7 +151,7 @@ function checkV(){
                 setTimeout(() => {
                     value.classList.add('colorV', 'fa-v' ,'animate__bounceIn') //add icons v and class colorV
                     setTimeout(() => {
-                        value.classList.add('animate__animated', 'animate__bounceOut')//remove icons V
+                        value.classList.add('animate__animated', 'animate__bounceOut')//remove icons v
                         setTimeout(() => {
                             window.location.reload()
                         }, 500)
