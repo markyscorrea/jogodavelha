@@ -8,15 +8,34 @@ body {
     height: 100vh;
 }
 
+#linkHome{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.select {
+    height: 50%;
+    width: 100vw;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.arrows{
+    color: rgba(255, 255, 255, 0.5);
+}
+
 #title {
-    height: 30vh;
+    height: 25vh;
     color: rgba(255, 255, 255, 0.8);
 }
 
-#subtitle {
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
+#timeDo {
+    color: rgba(0, 0, 0, 0.4);
 }
 
 #field {
@@ -33,12 +52,6 @@ body {
 
 .lines {
     height: 33.35%;
-}
-
-#rodape {
-    height: 20vh;
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
 }
 
 .squares {
@@ -72,6 +85,31 @@ body {
     color: rgba(255, 255, 255, 1);
     transition: 0.5s;
 }
+
+#rodape {
+    height: 20vh;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#placar{
+    height: 50%;
+    margin-top: 1vh;
+}
+
+#placarO,
+#placarX{
+    height: 10vh;
+}
+
+@keyframes movimentArrows {
+    from{
+
+    }to{
+
+    }
+}
+
 i {
     font-size: 4rem;
     color: rgba(255, 255, 255, 0.8);
@@ -84,5 +122,8 @@ i {
     }
     #rodape {
         height: 35vh;
+    }
+    #placar{
+        height: 30%;
     }
 }

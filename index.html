@@ -17,29 +17,29 @@
     <!-- Animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body onload="animateSubtitle()" class="bg-info">
+<body class="bg-info">
     
     <div class="container">
+        <span id="linkHome" class="opacity-0">HOME</span>
         <div class="row">
             <div id="title" class="col-md-12 d-flex align-items-center justify-content-between flex-column">
                 <h1 class="mt-5">#jogodavéia</h1>
-                
+                <h4>Escolha como quer jogar:</h4>
             </div>
         </div>
     </div>
-    <div id="field">
-
-        <div id="limits" class="container">
-            <div id="field-size" class="row">
-                <div class="col-12">
-                    
-                </div>
+    <div class="container">
+        <div id="field" class="row">
+            <div onclick="redirectX1()" onmouseenter="animateSelect(1)" class="col-lg-6 d-flex align-items-center justify-content-center select">
+                <span id="select1" class="">X1</span>
+            </div>
+            <div onclick="redirectVsPc()" onmouseenter="animateSelect(2)" class="col-lg-6 d-flex align-items-center justify-content-center select">
+                <span id="select2" class="">VS PC</span>
             </div>
         </div>
-
     </div>
 
-    <div class="d-flex justify-content-center align-items-center" id="rodape">
+    <div class="d-flex justify-content-center align-items-end" id="rodape">
         <p>Create by Márkys Corrêa &copy;</p>
     </div>
     <!--JS-->
