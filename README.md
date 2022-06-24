@@ -46,7 +46,7 @@ Sendo eles:
 
 Em ambos os modos, o placar é preenchido ao final de cada rodada, desde que não resulte em "Velha".
 
-O jogador que somar 3 vitórias primeiro, vence.
+O jogador que somar 3 vitórias primeiro vence.
 
 ---
 
